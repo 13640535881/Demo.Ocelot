@@ -1,6 +1,24 @@
 
-
-
+/***********默认***********/
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "59.213.90.180",
+          "Port": 3392
+        }
+      ],
+      "UpstreamPathTemplate": "/{url}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ]
+    }
+  ]
+}
 
 /***********使用服务发现Consul***********/
 //{
