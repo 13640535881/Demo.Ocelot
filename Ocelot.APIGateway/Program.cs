@@ -21,6 +21,10 @@ namespace Ocelot.APIGateway
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                })
+                .ConfigureAppConfiguration((hostingContext, builder) =>
+                {
+                    builder.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath).AddJsonFile("ocelot.json").AddEnvironmentVariables();
                 });
     }
 }

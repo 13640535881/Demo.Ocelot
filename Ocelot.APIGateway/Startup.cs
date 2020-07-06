@@ -35,14 +35,16 @@ namespace Ocelot.APIGateway
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+            //app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllers();
+            //});
+
+            //app.Use
         }
     }
 }
