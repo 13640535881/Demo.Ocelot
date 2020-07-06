@@ -4,14 +4,5 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Consul\ConsulBuilderExtensions.cs" />
-    <Compile Remove="Consul\ConsulOption.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Consul\" />
-  </ItemGroup>
-
 
 </Project>
