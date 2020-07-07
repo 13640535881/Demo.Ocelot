@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.APIGateway", "Ocelot.APIGateway\Ocelot.APIGateway.csproj", "{28A08BEF-A028-42FD-B5F8-8CFB02242DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.InsideTest", "Ocelot.InsideTest\Ocelot.InsideTest.csproj", "{C31ED0EB-1F0A-4703-9170-5E701BAB6FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.InsideTest", "Ocelot.InsideTest\Ocelot.InsideTest.csproj", "{C31ED0EB-1F0A-4703-9170-5E701BAB6FAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
